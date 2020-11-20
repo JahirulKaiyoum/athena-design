@@ -1,9 +1,10 @@
 import React from "react";
 import './Pricing.css';
+import Subscription from '../Subscription/Subscription'
 
 const Pricing = () => {
   return (
-    <div id="card">
+    <div id="card" className="mb-5">
         <h3 className="text-center mt-4 mb-5"> Choose Your Dedicated Team </h3>
       <div className="row card-deck">
         <div className="col-lg-4 col-md-6 col-sm-12">
@@ -118,6 +119,8 @@ const Pricing = () => {
         </div>
         </div>
       </div>
+
+      <Subscription/>
     </div>
   );
 };
