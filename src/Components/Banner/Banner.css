@@ -61,4 +61,36 @@
     width: 90%;
     object-fit: contain;
   }
+
+  .banner__btn {
+    background: linear-gradient(to right, #1ddab8, #07abee);
+    padding: 8px 20px;
+    border-radius: 20px 0% 20px 0%;
+    margin-left: 5px;
+    color: white;
+    border: none;
+    font-size: 14px;
+    /* font-weight: 700; */
+    position: relative;
+    
+    left: 90px;
 }
+}
+
+/* mobile device*/
+@media(min-width:501.01px) and (max-width:768px){
+
+  .banner__btn {
+    background: linear-gradient(to right, #1ddab8, #07abee);
+    padding: 8px 20px;
+    border-radius: 20px 0% 20px 0%;
+    margin-left: 5px;
+    color: white;
+    border: none;
+    font-size: 14px;
+    /* font-weight: 700; */
+    position: relative;
+    /* left: 90px; */
+}
+}
+/* left: 80px; */

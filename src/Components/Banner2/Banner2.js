@@ -15,7 +15,7 @@ function Banner2() {
           neque officia blanditiis officiis quis maxime voluptatibus, nesciunt
           iste.
         </p>
-        <button className="banner__btn">Contact Us</button>
+        <button className="banner__btn2">Contact Us</button>
       </div>
     </div>
   );
