@@ -10,8 +10,8 @@ const Footer = () => {
     return (
         <div id="footer" className="mt-5 mb-5">
             <div className="row mt-5">
-                <div className="col-md-5 pl-5">
-                    <div className="logo-img">
+                <div className="col-md-5 col-sm-12 m-sm-auto pl-5 text-center">
+                    <div className="logo-img ">
                         <img src={logo}  alt=""/>
                     </div>
                     <div className="social-group">
@@ -22,19 +22,19 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="col-md-7">
-                    <div className="row">
-                        <div className="col-md-4">
+                    <div className="row mt-5 font-weight-bold">
+                        <div className="col-md-4 col-sm-12 my-4 m-sm-auto text-center">
                             <p className="text-secondary"> Features</p>
                             <p className="text-secondary"> Enterprise </p>
                             <p className="text-secondary"> Pricing </p>
                         </div>
-                        <div className="col-md-4">
+                        <div className="col-md-4 my-4 m-sm-auto text-center">
                             <p className="text-secondary"> Blog </p>
                             <p className="text-secondary"> Help  </p>
                             <p className="text-secondary"> Contact Us </p>
                             <p className="text-secondary"> Status </p>
                         </div>
-                        <div className="col-md-4">
+                        <div className="col-md-4 my-4 m-sm-auto text-center">
                         <p className="text-secondary"> About Us </p>
                             <p className="text-secondary"> Terms of Service  </p>
                             <p className="text-secondary"> Security </p>

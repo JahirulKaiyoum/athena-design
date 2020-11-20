@@ -8,7 +8,7 @@ const Pricing = () => {
         <h3 className="text-center mt-4 mb-5"> Choose Your Dedicated Team </h3>
       <div className="row card-deck">
         <div className="col-lg-4 col-md-6 col-sm-12">
-        <div className="card ">
+        <div className="card mb-4">
           <div className="card-body text-center">
             <h5 className="card-title"> $199 </h5>
             <p className="card-text primary-border-bottom">
@@ -45,7 +45,7 @@ const Pricing = () => {
         </div>
         </div>
         <div className="col-lg-4 col-md-6 col-sm-12">
-        <div className="card card-active">
+        <div className="card mb-4 card-active">
           <div className="card-body text-center">
             <h5 className="card-title "> $199 </h5>
             <p className="card-text ">
