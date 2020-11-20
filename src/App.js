@@ -6,7 +6,7 @@ import NavBar from "./Components/NavBar/NavBar";
 import Services from "./Components/Services/Services";
 
 function App() {
-  return (
+  return(
     <div className="app">
       <NavBar></NavBar>
       <Banner></Banner>
